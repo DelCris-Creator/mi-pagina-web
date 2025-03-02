@@ -123,16 +123,22 @@ footer {
 }
 
 @media (max-width: 768px) {
+    header {
+        width: 90%; /* Reducir el ancho del header */
+        margin: 0 auto; /* Centrar el header */
+        padding: 10px; /* Reducir el padding */
+    }
+
     header img {
-        position: static;
-        height: auto;
-        width: 100%;
-        max-width: 250px;
-        margin: 0 auto;
+        position: static; /* Cambiar la posición a estática */
+        height: auto; /* Ajustar la altura automáticamente */
+        width: 100%; /* Ocupar el ancho completo */
+        max-width: 150px; /* Limitar el tamaño máximo */
+        margin: 0 auto 10px; /* Centrar la imagen y añadir margen inferior */
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.5em; /* Reducir el tamaño de la fuente */
     }
 
     .section {
