@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #ffcc99;
-    color: #663300;
+    background-color: #f7b8e2;
+    color: #dd2974;
     padding: 20px;
     text-align: center;
     position: relative;
@@ -15,10 +15,11 @@ header {
 }
 
 header img {
+    animation: bounce 3s infinite;
     position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 50px;
+    top: -75px;
+    left: 0px;
+    height: 250px;
 }
 
 h1 {
@@ -82,14 +83,44 @@ h1 {
         transform: translateY(0);
     }
     40% {
-        transform: translateY(-30px);
+        transform: translateY(-5px);
     }
     60% {
-        transform: translateY(-15px);
+        transform: translateY(-5px);
     }
 }
 
-header h1 {
-    animation: bounce 2s infinite;
+/* header h1 { 
+    animation: bounce 3s infinite;
+} */
+
+footer {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
 }
 
+.contacto {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los elementos */
+    margin-bottom: 10px;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 0.0px; /* Espacio entre el logo y el texto */
+}
+
+.contacto-item img {
+    width: 100px; /* Tamaño del logo */
+    height: 100px;
+}
+
+.derechos {
+    font-size: 1.0em;
+    margin-top: 15px;
+}
